@@ -17,7 +17,7 @@
   width: 230px;
   height: 100vh;
   display: block;
-  position: absolute;
+  position: fixed;
   z-index: 100;
   background: #E583AC;
 }
@@ -52,7 +52,7 @@ ul#sns_links_sp {
 /* sns_links for pc */
 .sns_pc {
   display: block;
-  position: absolute;
+  position: fixed;
   z-index: 101;
   right: 0;
   bottom: 0;
