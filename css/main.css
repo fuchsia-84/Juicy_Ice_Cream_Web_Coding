@@ -66,6 +66,19 @@ ul#sns_links_sp {
   width: calc(100% - 230px);
   padding-left: 230px;
 }
+#main h1 {
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  font-size: 60px;
+  line-height: 60px;
+  color: #555555;
+  margin-bottom: 60px;
+}
+#main p {
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 44px;
+  color: #555555;
+}
 /* top */
 #top {
   width: 100%;
@@ -90,17 +103,4 @@ ul#sns_links_sp {
 }
 #about .inner{
   padding-top: 80px;
-}
-#about h1 {
-  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-  font-size: 60px;
-  line-height: 60px;
-  color: #555555;
-  margin-bottom: 60px;
-}
-#about p {
-  font-family: "ヒラギノ角ゴ ProN";
-  font-size: 24px;
-  line-height: 44px;
-  color: #555555;
 }
