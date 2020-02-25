@@ -71,3 +71,12 @@ ul#sns_links_sp {
   width: 100%;
   height: 100vh;
 }
+.top_slider {
+  width: 100%;
+  height: auto;
+}
+.top_slider img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
