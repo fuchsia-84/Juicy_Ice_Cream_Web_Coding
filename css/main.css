@@ -11,6 +11,12 @@
   clear: both;
   display: block;
 }
+body {
+  overflow: hidden; /* before click title logo */
+}
+.scroll_on  {
+  overflow: visible; /* after click title logo */
+}
 
 /* header */
 #header {
@@ -67,10 +73,9 @@ ul#sns_links_sp {
   height: auto;
   position: absolute;
   z-index: 1000;
-  background: #83D6E5;
-  -webkit-transition: 1s ease-in-out;
-  -moz-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
+  top: 0;
+  transition: all 1s ease-in-out 0s;
+
 }
 .title_wave_pc .title_top {
   display: block;
@@ -111,7 +116,7 @@ img#title_wave_logo {
   cursor: pointer;
 }
 .title_open {
-  top: calc(-1 * (100vh + 300px));
+  top: calc((100vh + 300px)* (-1)); /* after click title logo */
 }
 
 /* main */
