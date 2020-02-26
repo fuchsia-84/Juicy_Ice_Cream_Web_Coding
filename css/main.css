@@ -61,10 +61,11 @@ ul#sns_links_sp {
 /* main */
 .main {
   width: 100%;
+  padding-left: 230px;
 }
 #main .inner {
   width: calc(100% - 230px);
-  padding-left: 230px;
+  margin: 0;
 }
 #main h1, h2{
   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
