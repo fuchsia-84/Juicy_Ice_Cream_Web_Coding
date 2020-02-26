@@ -111,6 +111,7 @@ ul#sns_links_sp {
 }
 #about .inner{
   padding-top: 80px;
+  padding-left: 120px;
 }
 
 /* menu */
@@ -120,7 +121,12 @@ ul#sns_links_sp {
   background: #FFFFFF;
 }
 #menu .inner {
-  padding: 80px 0;
+  width: calc(100% - 120px);
+  margin: 0;
+  padding: 80px 60px;
+}
+#menu .content_title {
+  text-align: right;
 }
 #menu .container {
   margin: 60px auto;
@@ -168,4 +174,12 @@ ul#sns_links_sp {
   float: right;
   margin-right: 0;
   margin-left: 30px;
+}
+#menu a#all_menu {
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #555555;
+  border-bottom: 2px solid #555555;
 }
