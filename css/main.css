@@ -42,11 +42,12 @@ ul#page_menu {
   bottom: 100px;
   list-style: none;
 }
-ul#page_menu li {
+ul#page_menu li a {
   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
   font-size: 24px;
   line-height: 44px;
   color: #FFFFFF;
+  text-decoration: none;
 }
 ul#sns_links_sp {
   display: none;
