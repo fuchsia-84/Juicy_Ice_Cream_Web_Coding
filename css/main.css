@@ -60,6 +60,59 @@ ul#sns_links_sp {
   right: 0;
   bottom: 0;
 }
+/* title wave for pc */
+.title_wave_pc {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 1000;
+  background: #83D6E5;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+.title_wave_pc .title_top {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background: #83D6E5;
+  position: absolute;
+  z-index: 1001;
+}
+.title_wave_pc .title_wave {
+  display: block;
+  width: 100%;
+  height: 300px;
+  background: #83D6E5;
+  position: absolute;
+  z-index: 1002;
+  top: 100vh;
+  mask-image: url(../img/svg/wave.svg);
+  -webkit-mask-image: url(../img/svg/wave.svg);
+  mask-position: center;
+  -webkit-mask-position: center;
+  mask-size: cover;
+  -webkit-mask-size: cover;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+}
+img#title_wave_logo {
+  display: block;
+  position: absolute;
+  z-index: 1003;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  cursor: pointer;
+}
+.title_open {
+  top: calc(-1 * (100vh + 300px));
+}
 
 /* main */
 .main {
