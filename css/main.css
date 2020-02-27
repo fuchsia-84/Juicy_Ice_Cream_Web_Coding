@@ -252,6 +252,7 @@ img#title_wave_logo {
 
 /* top */
 #top {
+  display: block;
   width: 100%;
   height: 100vh;
 }
@@ -267,13 +268,16 @@ img#title_wave_logo {
 
 /* about */
 #about {
+  display: block;
   width: 100%;
   height: 100vh;
   min-height: 800px;
   background: url(../img/bg/about_bg.jpeg);
   background-size: cover;
 }
-#about .inner{
+#about .inner {
+  width: calc(100% - 120px);
+  margin: 0;
   padding-top: 80px;
   padding-left: 120px;
 }
