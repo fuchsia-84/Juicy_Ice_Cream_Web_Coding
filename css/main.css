@@ -95,6 +95,12 @@ ul#sns_links_sp {
   -webkit-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
+
+  transition: all 1s ease-in-out 0s;
+  -moz-transition: all 1s ease-in-out 0s;
+  -webkit-transition: all 1s ease-in-out 0s;
+  -o-transition: all 1s ease-in-out 0s;
+  -ms-transition: all 1s ease-in-out 0s;
 }
 .sns_pc ul#sns_links_pc {
   display: none;
