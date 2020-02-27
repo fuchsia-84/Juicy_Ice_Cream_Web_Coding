@@ -20,9 +20,9 @@ body {
 
 /* header */
 #header {
+  display: block;
   width: 230px;
   height: 100vh;
-  display: block;
   position: fixed;
   z-index: 100;
   background: #E583AC;
@@ -221,12 +221,14 @@ img#title_wave_logo {
 
 /* main */
 .main {
+  display: block;
   width: 100%;
-  padding-left: 230px;
+  max-width: 100%;
 }
 #main .inner {
+  display: block;
   width: calc(100% - 230px);
-  margin: 0;
+  margin-left: 230px;
 }
 #main h1, h2{
   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
