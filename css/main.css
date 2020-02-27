@@ -77,6 +77,7 @@ ul#sns_links_sp {
   z-index: 102;
   right: 60px;
   bottom: 60px;
+  cursor: pointer;
 }
 .sns_pc #sns_pc_button span {
   display: block;
@@ -90,18 +91,19 @@ ul#sns_links_sp {
 }
 .sns_pc #sns_pc_button span:nth-child(2) {
   transform: rotate(90deg);
-  -moz-transform: rotate(9deg);
+  -moz-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
 }
 .sns_pc ul#sns_links_pc {
-  display: block;
+  display: none;
   width: 50px;
   height: auto;
   position: absolute;
   right: 85px;
-  bottom: 220px;
+  /*bottom: 220px;*/
+  bottom: -500px;
   list-style: none;
 }
 .sns_pc ul#sns_links_pc li a {
@@ -133,6 +135,18 @@ ul#sns_links_sp {
 }
 .sns_pc ul#sns_links_pc li:nth-child(4) a { /* Twitter link button color */
   background: #7FE2FA;
+}
+/* sns_links for pc (opened) */
+.sns_pc #sns_pc_button.open_sns_pc span:nth-child(2) { /* button open */
+  transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+}
+.sns_pc ul#sns_links_pc.up_sns_pc { /* links up */
+  display: block;
+  bottom: 220px;
 }
 
 /* title wave for pc */
