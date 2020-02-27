@@ -82,6 +82,7 @@ ul#sns_links_sp {
   display: block;
   width: 30px;
   height: 6px;
+  border-radius: 5px;
   background: #FFFFFF;
   position: absolute;
   top: calc(50% - 3px);
@@ -94,6 +95,46 @@ ul#sns_links_sp {
   -o-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
 }
+.sns_pc ul#sns_links_pc {
+  display: block;
+  width: 50px;
+  height: auto;
+  position: absolute;
+  right: 85px;
+  bottom: 220px;
+  list-style: none;
+}
+.sns_pc ul#sns_links_pc li a {
+  display: block;
+  width: 50px;
+  height: 40px;
+  padding-top: 10px;
+  text-align: center;
+
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+  font-size: 30px;
+  line-height: 30px;
+
+  margin-bottom: 30px;
+}
+.sns_pc ul#sns_links_pc li:nth-child(1) a { /* LINE link button color */
+  background: #6AFC64;
+}
+.sns_pc ul#sns_links_pc li:nth-child(2) a { /* Facebook link button color */
+  background: #62A7F7;
+}
+.sns_pc ul#sns_links_pc li:nth-child(3) a { /* instagram link button color */
+  background: -moz-linear-gradient(-45deg,#F7EB62,#F485BC,#6A407D); 
+  background: -webkit-linear-gradient(-45deg,#F7EB62,#F485BC,#6A407D); 
+  background: linear-gradient(135deg,#F7EB62,#F485BC,#6A407D); 
+}
+.sns_pc ul#sns_links_pc li:nth-child(4) a { /* Twitter link button color */
+  background: #7FE2FA;
+}
+
 /* title wave for pc */
 .title_wave_pc {
   display: block;
