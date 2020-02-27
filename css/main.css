@@ -136,14 +136,14 @@ ul#sns_links_sp {
   background: #7FE2FA;
 }
 /* sns_links for pc (opened) */
-.sns_pc #sns_pc_button.open_sns_pc span:nth-child(2) { /* button open */
+.sns_pc.open_sns_pc #sns_pc_button span:nth-child(2) {
   transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
 }
-.sns_pc ul#sns_links_pc.up_sns_pc { /* links up */
+.sns_pc.open_sns_pc ul#sns_links_pc {
   display: block;
   bottom: 220px;
 }
