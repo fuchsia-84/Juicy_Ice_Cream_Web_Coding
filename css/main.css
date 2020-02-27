@@ -66,6 +66,34 @@ ul#sns_links_sp {
   right: 0;
   bottom: 0;
 }
+.sns_pc #sns_pc_button {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #DD415B;
+  border: 3px solid #FFFFFF;
+  position: fixed;
+  z-index: 102;
+  right: 60px;
+  bottom: 60px;
+}
+.sns_pc #sns_pc_button span {
+  display: block;
+  width: 30px;
+  height: 6px;
+  background: #FFFFFF;
+  position: absolute;
+  top: calc(50% - 3px);
+  left: calc(50% - 15px);
+}
+.sns_pc #sns_pc_button span:nth-child(2) {
+  transform: rotate(90deg);
+  -moz-transform: rotate(9deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+}
 /* title wave for pc */
 .title_wave_pc {
   display: block;
