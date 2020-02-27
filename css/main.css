@@ -103,13 +103,21 @@ ul#sns_links_sp {
   -ms-transition: all 1s ease-in-out 0s;
 }
 .sns_pc ul#sns_links_pc {
-  display: none;
+  visibility: hidden;
+  display: block;
   width: 50px;
   height: auto;
   position: absolute;
   right: 85px;
-  bottom: -500px;
+  bottom: -100px;
   list-style: none;
+  opacity: 0;
+
+  transition: all 1s ease-in-out 0s;
+  -moz-transition: all 1s ease-in-out 0s;
+  -webkit-transition: all 1s ease-in-out 0s;
+  -o-transition: all 1s ease-in-out 0s;
+  -ms-transition: all 1s ease-in-out 0s;
 }
 .sns_pc ul#sns_links_pc li a {
   display: block;
@@ -150,8 +158,9 @@ ul#sns_links_sp {
   -ms-transform: rotate(0deg);
 }
 .sns_pc.open_sns_pc ul#sns_links_pc {
-  display: block;
+  visibility: visible;
   bottom: 220px;
+  opacity: 1;
 }
 
 /* title wave for pc */
