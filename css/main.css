@@ -13,6 +13,7 @@
 }
 body {
   overflow: hidden; /* before click title logo */
+  background: #FFFFFF;
 }
 .scroll_on  {
   overflow: visible; /* after click title logo */
@@ -272,14 +273,31 @@ img#title_wave_logo {
   width: 100%;
   height: 100vh;
   min-height: 800px;
-  background: url(../img/bg/about_bg.jpeg);
+  background-image : url(../img/bg/about_bg.jpeg);
   background-size: cover;
+  position: relative;
 }
+
 #about .inner {
-  width: calc(100% - 120px);
-  margin: 0;
+  width: 100%;
+  height: 100vh;
   padding-top: 80px;
-  padding-left: 120px;
+  backdrop-filter: blur(1px) ;
+  -webkit-backdrop-filter: blur(1px);
+  margin: 0;
+}
+#about::before {
+  content: '';
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(255,255,255,0.4);
+}
+#about h1, #about p {
+  width: calc(100% - 120px);
+  margin-left: 120px;
 }
 
 /* menu */
