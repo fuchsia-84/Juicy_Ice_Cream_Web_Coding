@@ -511,7 +511,7 @@ img#title_wave_logo {
   #top {
     height: 585px;
   }
-  top_slider img {
+  .top_slider img {
     width: 100%;
     height: 585px;
     object-fit: cover;
