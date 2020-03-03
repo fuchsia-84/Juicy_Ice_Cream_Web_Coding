@@ -157,7 +157,8 @@ ul#sns_links_sp {
   }
   ul#page_menu {
     display: block;
-    width: 500px;
+    width: calc(100% - 60px);
+    max-width: 500px;
     height: auto;
     position: absolute;
     top: 90px;
