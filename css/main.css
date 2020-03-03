@@ -814,6 +814,37 @@ img#title_wave_logo {
     width: 84px;
     height: 128px;
   }
+  #shop .flickity-prev-next-button.next {
+    right: 30px;
+  }
+  #shop .flickity-prev-next-button.previous {
+    left: -30px;
+  }
+}
+@media screen and (max-width: 544px) {
+  #shop .inner {
+    width: calc(100% - 60px);
+    margin: 0;
+    padding: 90px 30px;
+  }
+  .shop_content {
+    width: 100%;
+    height: auto;
+  }
+  #shop_1 {
+    margin-right: 0;
+  }
+  /* shop flickity custom */
+  #shop .flickity-prev-next-button {
+    width: 60px;
+    height: 80px;
+  }
+  #shop .flickity-prev-next-button.next {
+    right: 30px;
+  }
+  #shop .flickity-prev-next-button.previous {
+    left: -30px;
+  }
 }
 
 /* footer */
