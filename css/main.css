@@ -712,6 +712,7 @@ img#title_wave_logo {
 }
 .shop_content h3 {
   width: calc(50% - 60px);
+  min-width: 160px;
   margin-right: 60px;
   margin-bottom: 60px;
   float: right;
@@ -777,11 +778,17 @@ img#title_wave_logo {
 #shop .flickity-prev-next-button.previous {
   left: -40px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #shop {
     height: auto;
-    min-height: 0;
+    min-height: 250px;
   }
+  .shop_content img {
+    height: auto;
+    min-height: 250px;
+  }
+}
+@media screen and (max-width: 768px) {
   #shop .inner {
     width: calc(100% - 120px);
     margin: 0;
