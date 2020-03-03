@@ -771,6 +771,12 @@ img#title_wave_logo {
 #shop .flickity-button:disabled {
   display: none;
 }
+#shop .flickity-prev-next-button.next {
+  right: -55px;
+}
+#shop .flickity-prev-next-button.previous {
+  left: -40px;
+}
 @media screen and (max-width: 768px) {
   #shop {
     height: auto;
@@ -819,12 +825,7 @@ img#title_wave_logo {
     width: 84px;
     height: 128px;
   }
-  #shop .flickity-prev-next-button.next {
-    right: 30px;
-  }
-  #shop .flickity-prev-next-button.previous {
-    left: -30px;
-  }
+  
 }
 @media screen and (max-width: 544px) {
   #shop .inner {
@@ -845,7 +846,7 @@ img#title_wave_logo {
     height: 80px;
   }
   #shop .flickity-prev-next-button.next {
-    right: 30px;
+    right: -30px;
   }
   #shop .flickity-prev-next-button.previous {
     left: -30px;
