@@ -574,7 +574,11 @@ img#title_wave_logo {
 }
 @media screen and (max-width: 544px) {
   #about::before {
-    height: 534px;
+    height: 432px;
+  }
+  #about p {
+    font-size: 12px;
+    line-height: 18px;
   }
 }
 
