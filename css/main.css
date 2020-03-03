@@ -15,6 +15,11 @@ body {
   overflow: hidden; /* before click title logo */
   background: #FFFFFF;
 }
+@media screen and (max-width: 768px) {
+  body {
+    overflow: visible;
+  }
+}
 .scroll_on  {
   overflow: visible; /* after click title logo */
 }
@@ -25,7 +30,7 @@ body {
   width: 230px;
   height: 100vh;
   position: fixed;
-  z-index: 100;
+  z-index: 999;
   background: #E583AC;
 }
 #header .inner {
@@ -59,6 +64,93 @@ ul#page_menu li a {
 ul#sns_links_sp {
   display: none;
 }
+@media screen and (max-width: 768px) {
+  #header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+  }
+  #header .inner {
+    padding-top: 0;
+  }
+  #header .header_logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 102;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 5px solid #FFFFFF;
+  }
+  #header .nav_toggle_sp {
+    display: block;
+    width: 30px;
+    height: 34px;
+    position: absolute;
+    z-index: 1000;
+    top: 23px;
+    right: 60px;
+  }
+  #header .nav_toggle_sp span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #FFFFFF;
+    position: absolute;
+    border-radius: 5px;
+  }
+  #header .nav_toggle_sp span:nth-child(1) {
+    top: 0;
+  }
+  #header .nav_toggle_sp span:nth-child(2) {
+    top: 14px;
+  }
+  #header .nav_toggle_sp span:nth-child(3) {
+    top: 28px;
+  }
+  #global_nav {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background: #E583AC;
+    top: -1000px;
+  }
+  ul#page_menu {
+    display: block;
+    width: 500px;
+    height: auto;
+    position: absolute;
+    top: 170px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 101;
+    text-align: center;
+  }
+  ul#page_menu li {
+    border-bottom: 4px solid #FFFFFF;
+    margin-bottom: 18px;
+  }
+  ul#page_menu li:last-child {
+    border-bottom: 4px solid #FFFFFF;
+    margin-bottom: 0;
+  }
+  ul#page_menu li a {
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-size: 24px;
+    line-height: 44px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  ul#sns_links_sp {
+    display: block;
+  }
+}
+
 /* sns_links for pc */
 .sns_pc {
   display: block;
@@ -163,6 +255,11 @@ ul#sns_links_sp {
   bottom: 220px;
   opacity: 1;
 }
+@media screen and (max-width: 768px) {
+  .sns_pc {
+    display: none;
+  }
+}
 
 /* title wave for pc */
 .title_wave_pc {
@@ -218,6 +315,11 @@ img#title_wave_logo {
 }
 .title_open {
   top: calc((100vh + 300px)* (-1)); /* after click title logo */
+}
+@media screen and (max-width: 768px) {
+  .title_wave_pc {
+    display: none;
+  }
 }
 
 /* main */
