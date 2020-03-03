@@ -555,6 +555,7 @@ img#title_wave_logo {
     min-height: 0;
   }
   #about .inner {
+    width: calc(100% - 60px);
     height: auto;
     padding: 90px 30px;
     margin: 0;
