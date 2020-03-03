@@ -432,7 +432,22 @@ img#title_wave_logo {
   margin-left: 120px;
 }
 @media screen and (max-width: 768px) {
-
+  #about {
+    height: auto;
+    min-height: 0;
+  }
+  #about .inner {
+    height: auto;
+    padding: 90px 0;
+    margin: 0;
+  }
+  #about::before {
+    height: 486px;
+    position: absolute;
+  }
+  #about h1 {
+    margin-bottom: 50px;
+  }
 }
 
 /* menu */
