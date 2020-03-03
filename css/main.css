@@ -357,6 +357,21 @@ img#title_wave_logo {
     width: 100%;
     margin: 0;
   }
+  #main h1 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  #main h2 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  #main p {
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #555555;
+  }
 }
 
 /* top */
@@ -395,7 +410,6 @@ img#title_wave_logo {
   background-size: cover;
   position: relative;
 }
-
 #about .inner {
   width: 100%;
   height: 100vh;
@@ -416,6 +430,9 @@ img#title_wave_logo {
 #about h1, #about p {
   width: calc(100% - 120px);
   margin-left: 120px;
+}
+@media screen and (max-width: 768px) {
+
 }
 
 /* menu */
