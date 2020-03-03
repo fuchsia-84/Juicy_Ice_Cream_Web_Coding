@@ -549,6 +549,12 @@ img#title_wave_logo {
   width: calc(100% - 120px);
   margin-left: 120px;
 }
+@media screen and (max-width: 992px) {
+  #about p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
 @media screen and (max-width: 768px) {
   #about {
     height: auto;
@@ -575,10 +581,6 @@ img#title_wave_logo {
 @media screen and (max-width: 544px) {
   #about::before {
     height: 432px;
-  }
-  #about p {
-    font-size: 12px;
-    line-height: 18px;
   }
 }
 
@@ -650,6 +652,16 @@ img#title_wave_logo {
   text-decoration: none;
   color: #555555;
   border-bottom: 2px solid #555555;
+}
+@media screen and (max-width: 992px) {
+  #menu .content_title p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  #menu .container p {
+    font-size: 12px;
+    line-height: 18px;
+  }
 }
 @media screen and (max-width: 768px) {
   #menu .inner {
@@ -782,6 +794,10 @@ img#title_wave_logo {
   #shop {
     height: auto;
     min-height: 250px;
+  }
+  #shop .content_title p {
+    font-size: 18px;
+    line-height: 24px;
   }
   .shop_content img {
     height: auto;
