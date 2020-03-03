@@ -540,6 +540,7 @@ img#title_wave_logo {
   content: '';
   width: 100%;
   height: 100vh;
+  min-height: 800px;
   position: absolute;
   top: 0;
   left: 0;
@@ -558,7 +559,7 @@ img#title_wave_logo {
 @media screen and (max-width: 768px) {
   #about {
     height: auto;
-    min-height: 0;
+    min-height: 1px;
   }
   #about .inner {
     width: calc(100% - 60px);
