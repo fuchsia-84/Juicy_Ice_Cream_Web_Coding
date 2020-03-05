@@ -569,6 +569,7 @@ img#title_wave_logo {
   }
   #about::before {
     height: 486px;
+    min-height: 486px;
     position: absolute;
   }
   #about h1, #about p {
@@ -582,6 +583,7 @@ img#title_wave_logo {
 @media screen and (max-width: 544px) {
   #about::before {
     height: 432px;
+    min-height: 432px;
   }
 }
 
