@@ -204,7 +204,7 @@ ul#sns_links_sp {
     width: 100%;
     position: absolute;
     z-index: 11;
-    top: calc(100vh - 600px);
+    top: 40vh;
     text-align: center;
   }
   ul#sns_links_sp li {
