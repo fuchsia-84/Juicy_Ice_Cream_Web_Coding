@@ -585,6 +585,10 @@ img#title_wave_logo {
     height: 432px;
     min-height: 432px;
   }
+  #about p {
+    font-size: 12px;
+    line-height: 18px;
+  }
 }
 
 /* menu */
