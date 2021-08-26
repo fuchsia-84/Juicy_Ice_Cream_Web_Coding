@@ -5,7 +5,6 @@ $(function() {
    });
 
    $('.title_img').on('mouseover', function() {
-      console.log('のったよ');
       $('.title_wave_pc .bg_black_25').css('display', 'block');
    });
 
