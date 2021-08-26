@@ -349,7 +349,22 @@ ul#sns_links_sp {
   line-height: 30px;
 
   margin-bottom: 30px;
+  position: relative;
 }
+.sns_pc ul#sns_links_pc li a::after {
+  content: '';
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 46px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.sns_pc ul#sns_links_pc li a:hover::after {
+  display: block;
+}
+
 .sns_pc ul#sns_links_pc li:nth-child(1) a { /* LINE link button color */
   background: #6AFC64;
 }
