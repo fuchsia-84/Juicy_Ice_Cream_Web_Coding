@@ -75,6 +75,10 @@ ul#page_menu li a {
   color: #FFFFFF;
   text-decoration: none;
 }
+ul#page_menu li a:hover {
+  color: #333333;
+  text-decoration: none;
+}
 ul#sns_links_sp {
   display: none;
 }
