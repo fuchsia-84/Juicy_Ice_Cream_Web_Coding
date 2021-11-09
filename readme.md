@@ -31,8 +31,12 @@
 ## 機能
 
 - **レスポンシブ対応**: PC版、タブレット版、SP版と画像幅に対応してレイアウトが変化します。
+![juicy_ice_cream_responsive](https://user-images.githubusercontent.com/46129202/140905045-a4ed5931-95a6-47a3-8481-b47bc6e144cb.png)
 - **サイト入り口**: 自作ロゴをクリックしてページに入ることができます。
+![juicy_top](https://user-images.githubusercontent.com/46129202/140906566-47377b28-7f9b-4cc2-a6a9-d3a9aeb05810.png)
+
 - **SNSリンク**: 各種SNSリンクが+/-ボタンによって開閉し、メインコンテンツ上に重なります。
+![sns_link](https://user-images.githubusercontent.com/46129202/140907691-5932470c-e084-40cd-b1aa-47808d717af5.png)
 
 ## デザインの工夫点
 
