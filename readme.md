@@ -1,12 +1,14 @@
 # Juicy_Ice_Cream_Web_Coding
 
-このリポジトリは、Webサイト [Juicy Ice Cram](https://fuchsia-84.github.io/Juicy_Ice_Cream_Web_Coding/) のソースコードです。
+このリポジトリは、<u>Webサイト [Juicy Ice Cram](https://fuchsia-84.github.io/Juicy_Ice_Cream_Web_Coding/) のソースコード</u>です。
+
+<span style="color: red;">※仮想、架空のWebサイト</span>
 
 上記リンクは、このリポジトリをGitHub Pagesで公開しています。
 
 ## 制作テーマ
 
-- 仮想のアイスクリームショップLP
+- <u>**仮想のアイスクリームショップLP**</u>
 
 - **ペルソナ**: 老若男女、海外スイーツのカラフル感が好きな人・流行に敏感な人が対象
 
@@ -91,5 +93,5 @@
 ## 参考(使用ツール等)
 
 - [HTML5 Reset Stylesheet \| HTML5 Doctor](http://html5doctor.com/html-5-reset-stylesheet/)
-
 - [Flickity](https://flickity.metafizzy.co/)
+- [ストック写真、ロイヤリティフリーの画像、グラフィック、ベクターおよびビデオ | Adobe Stock](https://stock.adobe.com/jp)
